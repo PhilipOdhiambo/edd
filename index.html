@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>EDD</title>
+</head>
+<body class="container">
+    <h1>Expected Date Of Delivery (EDD)</h1>
+    <p>Please enter the details to know you expected date of deliver</p>
+    <form action="">
+        <div class="input">
+            <label for="lmp">Last Monthly Period Date (LMP):</label>
+            <input id="lmp" type="date">
+        </div>
+
+        <div class="submit">
+            <button type="button" id="submit-btn" onclick="expectedDeliveryDate()">Submit</button>
+        </div>
+    </form>
+    <div class="output">
+        <label for="edd">Expected Date of Delivery:</label>
+        <input type="text" id="edd">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
